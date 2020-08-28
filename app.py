@@ -3,7 +3,7 @@ import streamlit as st
 #from textblob import TextBlob
 import pandas as pd
 import joblib
-import sentimentClassifier
+from sentimentClassifier import *
 
 
 # Emoji
