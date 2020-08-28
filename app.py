@@ -4,6 +4,8 @@ import streamlit as st
 import pandas as pd
 import joblib
 from sentimentClassifier import SentimentClassifier
+from classifier import *
+
 
 
 # Emoji
