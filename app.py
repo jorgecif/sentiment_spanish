@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 #from sentimentClassifier import SentimentClassifier
-from classifier/sentimentClassifier import SentimentClassifier
+from classifier.sentimentClassifier import *
 
 
 
