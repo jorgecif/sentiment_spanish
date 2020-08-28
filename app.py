@@ -3,7 +3,7 @@ import streamlit as st
 #from textblob import TextBlob
 import pandas as pd
 import joblib
-from classifier import *
+from classifier import SentimentClassifier
 
 
 
