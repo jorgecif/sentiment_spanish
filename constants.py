@@ -21,7 +21,7 @@ MERCADO_RATIO = 50000
 dataDelimiter = '__dataDelimiter__'
 
 ## Constants preProcessing
-path = './'
+path_package = './'
 dirtyReps = re.compile(r'([^lL0])\1{1,}')
 dirtySpaces = re.compile(r'(\.|,|:|;|!|\?|\[|\]|\(|\))[A-Za-z0-9]+')
 dirtyK = re.compile('[^o]k')
