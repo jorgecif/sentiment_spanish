@@ -37,7 +37,7 @@ def main():
 		st.write(emoji.emojize('Everyone :red_heart: Streamlit ',use_aliases=True))
 		raw_text = st.text_area("Enter Your Text","Type Here")
 		if st.button("Analyze"):
-			clf = SentimentClassifier()
+			clf = sentimentClassifier.SentimentClassifier()
 
 			result = clf.predict(x)
 			if result > 0.0:
