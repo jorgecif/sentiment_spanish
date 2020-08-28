@@ -1,4 +1,4 @@
-from .constants import *
+from constants import *
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from .MarisaTfidfVectorizer import *
 from sklearn.feature_selection import SelectKBest, chi2
